@@ -1,0 +1,9 @@
+apiVersion: 1
+
+providers:
+  - name: 'git-dashboards'
+    folder: 'Git Synced Dashboards'
+    type: file
+    options:
+      path: /var/lib/grafana/dashboards
+      reloadIntervalSeconds: 30
