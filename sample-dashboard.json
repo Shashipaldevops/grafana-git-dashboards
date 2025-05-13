@@ -1,1 +1,34 @@
-{}
+{
+  "dashboard": {
+    "id": null,
+    "uid": "sample-dashboard",
+    "title": "Sample Git Synced Dashboard",
+    "timezone": "browser",
+    "panels": [
+      {
+        "type": "timeseries",
+        "title": "Random Walk Series",
+        "datasource": "TestData",
+        "targets": [
+          {
+            "refId": "A",
+            "scenarioId": "random_walk"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {},
+          "overrides": []
+        },
+        "gridPos": {
+          "x": 0,
+          "y": 0,
+          "w": 24,
+          "h": 10
+        }
+      }
+    ],
+    "schemaVersion": 30,
+    "version": 1
+  },
+  "overwrite": true
+}
